@@ -16,7 +16,7 @@ for (i = 1; i <= 100; i++) {
     } else if (i % 5 === 0) {
         fizzbuzz = "Buzz";
     } else {
-        fizzbuzz = i
+        fizzbuzz = i;
     }
     console.log(fizzbuzz);    
 }
