@@ -7,7 +7,7 @@
 // 7 altrimenti assegnare l'iteratore come valore della variabile fizzbuzz.
 // 8 mandare in console la variabile fizzbuzz.
 
-for (i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
     let fizzbuzz;
     if (i % 3 === 0 && i % 5 === 0) {
         fizzbuzz = "FizzBuzz";
